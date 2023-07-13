@@ -1,0 +1,13 @@
+ {
+  "dependencies": {
+    "alpinejs": "^3.12.3"
+  },
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/css/style.css --watch",
+    "prettier": "npx prettier --write ./dist/*.html"
+  },
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.4.0"
+  }
+}
